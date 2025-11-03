@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <!-- Rows Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rows:"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp" />
+
+    <Spinner
+        android:id="@+id/spRows"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+    <!-- Columns Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Columns:"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp" />
+
+    <Spinner
+        android:id="@+id/spCols"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+    <!-- Mines Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="% Mines:"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp" />
+
+    <Spinner
+        android:id="@+id/spMines"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+    <!-- Covered Cell Color -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Covered Cell Color:"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp" />
+
+    <Spinner
+        android:id="@+id/spCovered"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+    <!-- Uncovered Cell Color -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uncovered Cell Color:"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp" />
+
+    <Spinner
+        android:id="@+id/spUncovered"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+    <!-- Flag / Suspected Cell Color -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flag Color:"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp" />
+
+    <Spinner
+        android:id="@+id/spFlag"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+    <!-- Mine Color -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mine Color:"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp" />
+
+    <Spinner
+        android:id="@+id/spMine"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+    <!-- Start Game Button -->
+    <Button
+        android:id="@+id/btnStartGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Game"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
